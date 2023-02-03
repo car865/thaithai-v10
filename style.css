@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(23, 23, 23);
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.logo {
+  width: 65px;
+  cursor: pointer;
+  float: none;
+  text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+:root {
+  --navy: #1a202c;
+  --shadowgray: #736f70;
+}
+
+::selection {
+  background-color: #1a202c;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #1a202c;
+  color: white;
+}
+
+/* top */
+
+.main-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("main.jpg");
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.title-center {
+  display: grid;
+  place-items: center;
+  height: 60vh;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.mon-fri,
+.top-open-hours,
+.sat,
+.sun,
+.adress-phone {
+  color: white;
+  text-align: center;
+}
+
+button {
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 0.2rem 3rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* news page */
+
+.news-page {
+  padding: 1.5rem 1rem 2rem 1rem;
+  background-color: white;
+  margin: 2rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.news-title {
+  text-align: center;
+}
+
+/* mid */
+
+.mid-box {
+  padding: 1.5rem 1rem 2rem 1rem;
+  background-color: white;
+  margin: 2rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.lunch-title {
+  color: var(--navy);
+  text-align: center;
+}
+
+.buffet-open-hours {
+  color: var(--navy);
+  text-align: center;
+}
+
+.buffet-prices {
+  text-align: center;
+}
+
+.buffet-desc {
+  color: var(--shadowgray);
+  text-align: center;
+  margin: 0.8rem 0 0 0;
+}
+
+.obs-text {
+  font-family: sans-serif;
+  font-style: italic;
+  opacity: 80%;
+}
+
+.alt-price-1,
+.alt-price-2,
+.alt-price-3,
+.alt-price-4 {
+  color: white;
+  background-color: var(--navy);
+  border: 1px solid var(--navy);
+  border-radius: 0.5rem;
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  margin: 0.2rem 0 0.3rem 0;
+  font-size: 14px;
+}
+
+/* bot */
+
+.top-menu-box {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  margin: 0 1rem 0 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.menu-box {
+  padding: 2rem;
+  background-color: white;
+  margin: 0 1rem 0.3rem 1rem;
+}
+
+.last-menu-box {
+  padding: 2rem 2rem 3rem 2rem;
+  background-color: white;
+  margin: 0 1rem 2rem 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.take-away-title {
+  margin: 0 0 0.5rem 0;
+}
+
+.title-hr {
+  opacity: 0.5;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.warning-label {
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.warning-label-2 {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.menu-title {
+  font-size: 15px;
+  color: var(--navy);
+}
+
+.menu-desc {
+  font-size: 14px;
+}
+
+.sauce {
+  margin: 1rem 0 0 0;
+}
+
+.alternative {
+  margin: 1rem 0 0 0;
+}
+
+.sweetsour,
+.sweetchili,
+.peanutsauce {
+  border: 1px solid var(--navy);
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 0.5rem;
+  color: var(--navy);
+  background-color: white;
+  font-size: 11px;
+  margin: 0.4rem 0 0 0;
+}
+
+.with-rice,
+.without-rice {
+  border: 1px solid var(--navy);
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--navy);
+  font-size: 11px;
+  margin: 0.4rem 0 0 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.meat-prices {
+  margin: 0.25rem 0 0 0;
+}
+
+.chicken,
+.pork,
+.tofu,
+.beef,
+.shrimps {
+  border: 1px solid var(--navy);
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--navy);
+  font-size: 11px;
+  margin: 0.4rem 0 0 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.extra-rice,
+.extra-sauce,
+.soda {
+  border: 1px solid var(--navy);
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--navy);
+  font-size: 11px;
+  margin: 0.2rem 0 0 0;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 1rem;
+}
+
+.footer-text {
+  font-size: 20px;
+}
+
+.facebook-logo {
+  margin: 0.5rem 0 0 0;
+  width: 25px;
+}
